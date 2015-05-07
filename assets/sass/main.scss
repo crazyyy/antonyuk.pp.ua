@@ -628,6 +628,16 @@ footer {
   section,
   footer {
     border: 0;
+    font-size: 65%;
+  }
+  .experience {
+    li {
+      display: inline-block;
+      width: 45%;
+    }
+  }
+  td {
+    padding: 2px;
   }
   .folio {
     display: none;
