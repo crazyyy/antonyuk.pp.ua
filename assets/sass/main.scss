@@ -366,8 +366,6 @@ section {
   .summary {
     margin-left: 12px;
     padding: 10px 10px 10px 10px;
-    -webkit-animation: linear 5s summary infinite;
-    -o-animation: linear 5s summary infinite;
     animation: linear 5s summary infinite;
     border-left: 7px solid #444;
   }
@@ -419,8 +417,6 @@ article {
   }
   .fa-print {
     font-size: 200%;
-    -webkit-animation: linear 5s scroll infinite;
-    -o-animation: linear 5s scroll infinite;
     animation: linear 5s scroll infinite;
   }
   .top {
@@ -500,5 +496,21 @@ footer {
   }
   #scroll {
     display: none !important;
+  }
+}
+@keyframes summary {
+  0% {
+    border-color: darken($color, 20%);
+  }
+  50% {
+    border-color: $color;
+  }
+  100% {
+    border-color: lighten($color, 20%);
+  }
+}
+@keyframes scroll {
+  50% {
+    color: lighten(red, 20%);
   }
 }
