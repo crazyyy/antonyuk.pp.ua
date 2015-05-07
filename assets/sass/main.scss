@@ -1,37 +1,85 @@
-@charset "UTF-8";
+@charset 'UTF-8';
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
 
-html, body, div, h1, h2, h6, a, img, ul, li, table, tbody, tr, th, td, article, aside, footer, header, nav, section {
+  src: url('../fonts/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('../fonts/OpenSans-Bold-webfont.eot');
+  src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold-webfont.woff') format('woff'), url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+}
+html,
+body,
+div,
+h1,
+h2,
+h6,
+a,
+img,
+ul,
+li,
+table,
+tbody,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section {
   font: inherit;
   font-size: 100%;
+
   margin: 0;
   padding: 0;
+
   vertical-align: baseline;
+
   border: 0;
 }
 
-article, aside, footer, header, nav, section {
+article,
+aside,
+footer,
+header,
+nav,
+section {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 html {
   font-family: sans-serif;
+
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
 body {
   line-height: 1;
+
   position: relative;
+
   width: 100%;
 }
 
 ul {
-  list-style: none;
   padding: 0;
+
+  list-style: none;
 }
 
 a {
@@ -39,7 +87,8 @@ a {
     outline: thin dotted;
     outline: 0;
   }
-  &:active, &:hover {
+  &:active,
+  &:hover {
     outline: 0;
   }
 }
@@ -48,8 +97,10 @@ p {
   margin: 0 0 18px;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   padding: 0;
+
   border: 0;
 }
 
@@ -60,16 +111,19 @@ table {
 
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
+
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  &:after, &:before {
+  &:after,
+  &:before {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -79,36 +133,51 @@ img {
   width: auto;
   max-width: 100%;
   height: auto;
+
   vertical-align: bottom;
+
   -ms-interpolation-mode: bicubic;
   border: 0;
 }
 
-::selection, ::-webkit-selection, ::-moz-selection {
+::selection,
+::-webkit-selection,
+::-moz-selection {
   color: #fff;
   background: #04a4cc;
   text-shadow: none;
 }
 
-.wrapper, header, section, footer {
+.wrapper,
+header,
+section,
+footer {
   *zoom: 1;
 }
 
-.wrapper:before, header:before, section:before, footer:before {
+.wrapper:before,
+header:before,
+section:before,
+footer:before {
   display: table;
+
   content: '';
 }
 
-.wrapper:after, header:after, section:after, footer:after {
+.wrapper:after,
+header:after,
+section:after,
+footer:after {
   display: table;
   clear: both;
+
   content: '';
 }
 
 a {
   -webkit-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
+       -o-transition: all .1s ease-in-out;
+          transition: all .1s ease-in-out;
 }
 
 img {
@@ -116,85 +185,72 @@ img {
 }
 
 ::-moz-placeholder {
-  color: #999;
   opacity: 1;
+  color: #999;
 }
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format("embedded-opentype"), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format("woff2"), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format("woff"), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format("truetype"), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format("svg");
   font-weight: 400;
   font-style: normal;
+
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
 
-.fa, header ul .social a {
-  display: inline-block;
+.fa,
+header ul .social a {
   font: 14px/1 FontAwesome;
   font-size: inherit;
+
+  display: inline-block;
+
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
 }
 
 .fa-print:before {
-  content: "\f02f";
+  content: '\f02f';
 }
 
 .fa-facebook-square:before {
-  content: "\f082";
+  content: '\f082';
 }
 
 .fa-linkedin-square:before {
-  content: "\f08c";
+  content: '\f08c';
 }
 
 .fa-google-plus-square:before {
-  content: "\f0d4";
+  content: '\f0d4';
 }
 
 .fa-vk:before {
-  content: "\f189";
+  content: '\f189';
 }
-
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Regular-webfont.eot');
-  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/OpenSans-Regular-webfont.woff') format("woff"), url('../fonts/OpenSans-Regular-webfont.ttf') format("truetype"), url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Bold-webfont.eot');
-  src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/OpenSans-Bold-webfont.woff') format("woff"), url('../fonts/OpenSans-Bold-webfont.ttf') format("truetype"), url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-
 
 body {
   font-family: 'Open Sans',sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
+
   padding: 15px 0;
+
   color: #444;
   background-color: #646464;
 }
 
 a {
-  -webkit-transition: all\: .5s;
-  -o-transition: all\: .5s;
-  transition: all\: .5s;
+  transition: all .5s;
+
   color: #000;
   &:hover {
     color: #1a1a1a;
@@ -206,47 +262,58 @@ a {
 
 .wrapper {
   position: relative;
+  position: relative;
+
   width: 100%;
   height: auto !important;
   height: 100%;
   min-height: 100%;
   margin: 0 auto;
+}
+
+header,
+section,
+footer {
   position: relative;
 }
 
-header, section, footer {
-  position: relative;
-}
-
-header, section {
+header,
+section {
   width: 980px;
   margin: 0 auto;
+
   background-color: #fff;
 }
 
 header {
   z-index: 0;
+
   border: 3px solid grey;
   border-bottom: 0;
   border-radius: 8px 8px 0 0;
   .me {
     display: inline-block;
-    padding: 25px 0 0 25px;
+
     width: 20%;
+    padding: 25px 0 0 25px;
     img {
       max-width: 100%;
+
       border-radius: 3px;
     }
   }
   h1 {
     font-size: 140%;
+
     position: absolute;
     top: 20px;
     left: 30%;
+
     text-shadow: 1px 1px 2px #111;
   }
   h6 {
     font-size: 120%;
+
     position: absolute;
     top: 160px;
     left: 30%;
@@ -258,21 +325,31 @@ header {
     li a {
       text-decoration: none;
     }
-    .phone, .email, .skype {
+    .phone,
+    .email,
+    .skype {
       position: relative;
+
       padding: 5px 5px 5px 30px;
     }
-    .phone:before, .email:before, .skype:before {
+    .phone:before,
+    .email:before,
+    .skype:before {
       font-family: 'FontAwesome';
       line-height: 1.5;
+
       position: absolute;
       top: 3px;
       left: 0;
+
       display: block;
+
       width: 25px;
       height: 25px;
+
       content: '';
       text-align: center;
+
       border-radius: 50%;
     }
     .phone {
@@ -300,6 +377,7 @@ header {
     .skype {
       &:before {
         content: '';
+
         color: #01a3de;
       }
       a {
@@ -312,10 +390,14 @@ header {
     .social {
       a {
         line-height: 1.5;
+
         display: inline-block;
+
         width: 25px;
         height: 25px;
+
         text-align: center;
+
         opacity: .8;
         border: 1px solid transparent;
         border-radius: 5px;
@@ -343,18 +425,22 @@ header {
 section {
   position: relative;
   z-index: 0;
+
   width: 980px;
   padding: 25px 25px 30px;
+
   border: 3px solid grey;
   border-top: 0;
   border-bottom: 0;
   border-radius: 0 0 8px 8px;
   h2 {
     font-size: 160%;
+
     margin: 0 0 10px;
   }
   ul {
     padding: 10px 10px 10px 30px;
+
     list-style-type: circle;
     li {
       margin: 0 0 10px;
@@ -366,7 +452,9 @@ section {
   .summary {
     margin-left: 12px;
     padding: 10px 10px 10px 10px;
+
     animation: linear 5s summary infinite;
+
     border-left: 7px solid #444;
   }
 }
@@ -374,20 +462,24 @@ section {
 article {
   margin-bottom: 10px;
   padding-bottom: 10px;
+
   border-bottom: 1px dotted #444;
 }
 
 .place-of-work table {
   th {
     padding: 5px;
+
     background-color: #f7f7f7;
   }
   td {
     font-size: 80%;
+
     width: 15%;
     padding: 10px 5px;
     &:nth-child(3) {
       padding: 10px 15px;
+
       text-align: center;
     }
     &:last-child {
@@ -399,6 +491,7 @@ article {
 .hobbies {
   margin-bottom: 0;
   padding-bottom: 0;
+
   border-bottom: 0;
 }
 
@@ -406,23 +499,30 @@ article {
   position: fixed;
   right: 150px;
   bottom: 150px;
+
   display: block;
+
   width: 50px;
   height: 100px;
   a {
     display: block;
+
     width: 50px;
     padding: 5px 0;
+
     text-align: center;
   }
   .fa-print {
     font-size: 200%;
+
     animation: linear 5s scroll infinite;
   }
   .top {
     font-size: 400%;
     font-weight: 700;
+
     text-decoration: none;
+
     opacity: .4;
     &:hover {
       opacity: 1;
@@ -432,11 +532,15 @@ article {
 
 footer {
   font-size: 60%;
+
   position: relative;
+
   width: 980px;
   height: 30px;
   margin: -30px auto 0;
+
   text-align: center;
+
   border: 3px solid grey;
   border-top: 0;
   border-radius: 0 0 8px 8px;
@@ -445,13 +549,44 @@ footer {
     margin: 0;
   }
 }
-
+@media (min-width: 340px) and (max-width: 979px) {
+  header,
+  section,
+  footer {
+    width: 100%;
+    min-width: 540px;
+  }
+  header {
+    min-height: 190px;
+  }
+  .me {
+    min-width: 150px;
+    margin-bottom: 3px;
+  }
+}
+@media (min-width: 340px) and (max-width: 559px) {
+  body {
+    padding: 0;
+  }
+  header,
+  section {
+    border: 0;
+    border-radius: 0;
+  }
+  section {
+    padding: 5px 2px;
+    font-size: 80%;
+  }
+    footer{
+      display: none;
+    }
+}
 @media print {
   * {
     color: #000 !important;
     background: transparent !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   a {
@@ -460,7 +595,7 @@ footer {
       text-decoration: underline;
     }
     &[href]:after {
-      content: " (" attr(href) ")";
+      content: ' (' attr(href) ')';
     }
     &[href^='javascript:']:after {
       content: '';
@@ -471,6 +606,7 @@ footer {
   }
   img {
     max-width: 100% !important;
+
     page-break-inside: avoid;
   }
   p {
@@ -488,7 +624,9 @@ footer {
   .social {
     display: none;
   }
-  header, section, footer {
+  header,
+  section,
+  footer {
     border: 0;
   }
   .folio {
@@ -500,13 +638,13 @@ footer {
 }
 @keyframes summary {
   0% {
-    border-color: darken($color, 20%);
+    border-color: darken(#646464, 20%);
   }
   50% {
-    border-color: $color;
+    border-color: #646464;
   }
   100% {
-    border-color: lighten($color, 20%);
+    border-color: lighten(#646464, 20%);
   }
 }
 @keyframes scroll {
