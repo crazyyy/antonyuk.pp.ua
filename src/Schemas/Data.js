@@ -1,56 +1,56 @@
 export const Data = {
   profile: {
-    name: "Matias Lagos",
-    ocupation: "FullStack Software Developer",
-    location: "Santiago, Chile",
-    email: "lagos.matias25@gmail.com",
-    telephone: "+56 971999705",
+    name: "Vitalii Antoniuk",
+    ocupation: "Full-Stack PHP / WordPress Developer | Laravel, React, Vue, ACF | DevOps-Minded",
+    location: "Vinnitsya, Ukraine",
+    email: "crazyyy@gmail.com",
+    telephone: "+380 9638864448",
     image: "images/me.webp",
   },
   aboutMe: {
-    label: "Perfil",
+    label: "Profile",
     description:
-      "Analista Programador, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo.",
+    [
+      "Experienced Full-Stack Web Developer with over 15 years in web development. Specialized in building responsive and high-performance web solutions using PHP (WordPress, Laravel), Node.js, React, and other modern technologies. Proficient in the full development cycle — from architecture to deployment. Skilled in DevOps process optimization, team leadership, and mentoring. Strong expertise in SEO — both on-page and off-page."
+    ]
   },
   skills: {
-    technicalLabel: "Tecnologías",
+    technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
-      "Angular",
+      "PHP",
       "React",
-      "Java",
+      "Python",
       "Nodejs",
-      "Spring Boot",
       "Nestjs",
-      "APIM",
       "SQL",
       "Git",
     ],
     softSkills: [
-      "Capacidad de análisis",
-      "Resolución de Problemas",
-      "Pensamiento Crítico",
-      "Trabajo en equipo",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
+      "Analytical Skills",
+      "Problem Solving",
+      "Critical Thinking",
+      "Teamwork",
+      "Communication",
+      "Proactivity",
+      "Creativity",
+      "Self-Taught",
+      "Mentoring",
     ],
   },
   socialMedia: {
     label: "SOCIAL",
     social: [
       {
-        label: "Visitar el perfil de Matias Lagos en LinkedIn",
+        label: "Visit Vitalii Antoniuk's LinkedIn profile",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/mlagosg",
+        url: "https://www.linkedin.com/in/vitaliantoniuk",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Visitar el perfil de Matias Lagos en GitHub",
+        label: "Visit Vitalii Antoniuk's profile on GitHub",
         name: "github",
-        url: "https://github.com/Maaato",
+        url: "https://github.com/crazyyy",
         className: "bxl-github",
       },
     ],
@@ -58,30 +58,64 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
+        title: "Full-Stack PHP/WordPress Developer \ Laravel, ACF, React, DevOps",
+        period: "Sep. 2007 - Present",
+        company: "Freelance Web and WordPress Developer",
         description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+          "Built 30+ full-featured websites (WordPress, Laravel, Vue, React)",
+          "Deployed production-ready CI/CD pipelines (GitHub Actions, Docker)",
+          "Designed REST APIs for mobile applications",
+          "Deployed apps to AWS, Heroku; configured CI/CD via GitHub Actions",
+          "Used Docker, Nginx, Apache; SSL configuration and security hardening",
+          "Integrated third-party services via APIs (CRMs, payment systems, etc.)",
+          "Mentored 5+ junior developers; maintained technical documentation",
+          "Improved PageSpeed to 95+ for multiple projects"
+
         ],
       },
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
+        title: "Full Stack Developer",
+        period: "Aug. 2019 - Dec. 2024",
+        company: "Rogmax",
         description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Built a B2B logistics platform for clients",
+          "Stack: PHP, Laravel, Vue.js, Redis, MySQL",
+          "Followed PSR coding standards, implemented unit tests (PHPUnit, Jest)"
+        ],
+      },
+      {
+        title: "JavaScript Developer",
+        period: "Jan. 2018 - Aug. 2019",
+        company: "Jelastic PaaS",
+        description: [
+          "Developed UI for a multi-cloud platform (React, Webpack, REST APIs)",
+          "Applied component-based approach with TypeScript"
+        ],
+      },
+      {
+        title: "PHP / UI Developer",
+        period: "May. 2016 - Dec. 2018",
+        company: "Ngoar",
+        description: [
+          "Built and maintained 25+ WordPress websites for UK/US clients",
+          "Worked directly with clients: requirements, presentations, SEO integration"
+        ],
+      },
+      {
+        title: "Frontend Developer",
+        period: "Aug. 2014 - Apr. 2016",
+        company: "Hotels24.ua",
+        description: [
+          "Created UI for internal CRM",
+          "Developed responsive HTML email templates for marketing"
         ],
       },
     ],
     academic: [
       {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
+        career: "Engineer in Computer Science",
+        date: "2007",
+        institution: "Vinnytsia National Technical University",
       },
     ],
     proyects: [
