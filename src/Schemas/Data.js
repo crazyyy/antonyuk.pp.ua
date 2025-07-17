@@ -2,7 +2,7 @@ export const Data = {
   profile: {
     name: "Vitalii Antoniuk",
     ocupation: "Full-Stack PHP / WordPress Developer | Laravel, React, Vue, ACF | DevOps-Minded",
-    location: "Vinnitsya, Ukraine",
+    location: "Vinnytsia, Ukraine",
     email: "crazyyy@gmail.com",
     telephone: "+380 9638864448",
     image: "images/avatar-big-250.jpg",
@@ -11,7 +11,7 @@ export const Data = {
     label: "Profile",
     description:
     [
-      "Experienced Full-Stack Web Developer with over 15 years in web development. Specialized in building responsive and high-performance web solutions using PHP (WordPress, Laravel), Node.js, React, and other modern technologies. Proficient in the full development cycle — from architecture to deployment. Skilled in DevOps process optimization, team leadership, and mentoring. Strong expertise in SEO — both on-page and off-page."
+      "Experienced Full-Stack Web Developer with over 15 years in web development. Specialized in building responsive and high-performance web solutions using PHP (WordPress, Laravel), Node.js, React, Python and other modern technologies. Proficient in the full development cycle — from architecture to deployment. Skilled in DevOps process optimization, team leadership, and mentoring. Strong expertise in SEO — both on-page and off-page."
     ]
   },
   skills: {
@@ -82,22 +82,12 @@ export const Data = {
         ],
       },
       {
-        title: "Full Stack Developer",
-        period: "Aug. 2019 - Dec. 2024",
-        company: "Rogmax",
+        title: "Frontend Developer",
+        period: "Aug. 2014 - Apr. 2016",
+        company: "Hotels24.ua",
         description: [
-          "Built a B2B logistics platform for clients",
-          "Stack: PHP, Laravel, Vue.js, Redis, MySQL",
-          "Followed PSR coding standards, implemented unit tests (PHPUnit, Jest)"
-        ],
-      },
-      {
-        title: "JavaScript Developer",
-        period: "Jan. 2018 - Aug. 2019",
-        company: "Jelastic PaaS",
-        description: [
-          "Developed UI for a multi-cloud platform (React, Webpack, REST APIs)",
-          "Applied component-based approach with TypeScript"
+          "Created UI for internal CRM",
+          "Developed responsive HTML email templates for marketing"
         ],
       },
       {
@@ -110,12 +100,22 @@ export const Data = {
         ],
       },
       {
-        title: "Frontend Developer",
-        period: "Aug. 2014 - Apr. 2016",
-        company: "Hotels24.ua",
+        title: "JavaScript Developer",
+        period: "Jan. 2018 - Aug. 2019",
+        company: "Jelastic PaaS",
         description: [
-          "Created UI for internal CRM",
-          "Developed responsive HTML email templates for marketing"
+          "Developed UI for a multi-cloud platform (React, Webpack, REST APIs)",
+          "Applied component-based approach with TypeScript"
+        ],
+      },
+      {
+        title: "Full Stack Developer",
+        period: "Aug. 2019 - Dec. 2024",
+        company: "Rogmax",
+        description: [
+          "Built a B2B logistics platform for clients",
+          "Stack: PHP, Laravel, Vue.js, Redis, MySQL",
+          "Followed PSR coding standards, implemented unit tests (PHPUnit, Jest)"
         ],
       },
     ],
