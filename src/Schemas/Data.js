@@ -5,7 +5,7 @@ export const Data = {
     location: "Vinnitsya, Ukraine",
     email: "crazyyy@gmail.com",
     telephone: "+380 9638864448",
-    image: "images/me.webp",
+    image: "images/avatar-big-250.jpg",
   },
   aboutMe: {
     label: "Profile",
