@@ -1,7 +1,7 @@
 export const Data = {
   profile: {
     name: "Vitalii Antoniuk",
-    ocupation: "Full-Stack PHP / WordPress Developer | Laravel, React, Vue, ACF | DevOps-Minded",
+    ocupation: "System Administrator, Tech Support | Full-Stack PHP Developer | DevOps-Minded",
     location: "Vinnytsia, Ukraine",
     email: "crazyyy@gmail.com",
     telephone: "+380 9638864448",
@@ -11,22 +11,24 @@ export const Data = {
     label: "Profile",
     description:
     [
-      "Experienced Full-Stack Web Developer with over 15 years in web development. Specialized in building responsive and high-performance web solutions using PHP (WordPress, Laravel), Node.js, React, Python and other modern technologies. Proficient in the full development cycle — from architecture to deployment. Skilled in DevOps process optimization, team leadership, and mentoring. Strong expertise in SEO — both on-page and off-page."
+      "Experienced in managing Linux and Windows servers, optimizing infrastructure, and automating workflows with Bash and PowerShell. Worked on deployment pipelines, monitoring, and containerized environments using Docker. Currently responsible for improving system reliability and security. Aiming to advance toward DevOps and cloud infrastructure engineering."
     ]
   },
   skills: {
     technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
-      "PHP",
-      "React",
+      "DevOps",
+      "CI/CD",
       "Python",
       "Nodejs",
       "Docker",
       "SQL",
       "Git",
+      "PHP",
+      "React",
       "SEO",
-      "DevOps",
+
     ],
     softSkills: [
       "Analytical Skills",
